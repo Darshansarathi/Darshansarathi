@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+
+    int x;
+    float y;
+    printf("enter the amount to be withdrawed x: ");
+    scanf("%d",&x);
+    printf("enter the initial account balance y: ");
+    scanf("%f",&y);
+    if(x>0 && x<=2000)
+    if(x+0.5>y)
+    {
+        printf("%.2f",y);
+    }
+    else if(x%5!=0)
+    {
+        printf("%.2f",y);
+    }
+    else
+    {
+        y=y-x-0.5;
+        printf("%.2f",y);
+    }
+
+    return 0;
+
+}
