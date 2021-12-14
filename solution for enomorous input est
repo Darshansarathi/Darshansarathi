@@ -2,7 +2,7 @@
 #include <stdio.h> 
 int main() 
 {
-	// Read the input n, k
+	
 	int n, k;
 	scanf("%d %d", &n, &k);
 
@@ -19,7 +19,6 @@ int main()
 		}		
 	}
 
-	// Print the ans.
 	printf("%d\n", ans);
 	
 	return 0;
